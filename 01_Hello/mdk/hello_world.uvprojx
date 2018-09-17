@@ -10,6 +10,7 @@
       <TargetName>hello_world debug</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>MK64FN1M0VLL12</Device>
@@ -381,52 +382,22 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>board</GroupName>
+          <GroupName>startup</GroupName>
           <Files>
             <File>
-              <FileName>pin_mux.c</FileName>
+              <FileName>system_MK64F12.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../pin_mux.c</FilePath>
+              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.c</FilePath>
             </File>
             <File>
-              <FileName>pin_mux.h</FileName>
+              <FileName>system_MK64F12.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../pin_mux.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>board-src</GroupName>
-          <Files>
-            <File>
-              <FileName>board.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../board.c</FilePath>
+              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.h</FilePath>
             </File>
             <File>
-              <FileName>board.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>../board.h</FilePath>
-            </File>
-            <File>
-              <FileName>clock_config.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../clock_config.c</FilePath>
-            </File>
-            <File>
-              <FileName>clock_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>../clock_config.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>doc</GroupName>
-          <Files>
-            <File>
-              <FileName>readme.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>../readme.txt</FilePath>
+              <FileName>startup_MK64F12.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/arm/startup_MK64F12.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -606,22 +577,42 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>startup</GroupName>
+          <GroupName>board</GroupName>
           <Files>
             <File>
-              <FileName>system_MK64F12.c</FileName>
+              <FileName>pin_mux.c</FileName>
               <FileType>1</FileType>
-              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.c</FilePath>
+              <FilePath>../pin_mux.c</FilePath>
             </File>
             <File>
-              <FileName>system_MK64F12.h</FileName>
+              <FileName>pin_mux.h</FileName>
               <FileType>5</FileType>
-              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.h</FilePath>
+              <FilePath>../pin_mux.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>board-src</GroupName>
+          <Files>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../board.c</FilePath>
             </File>
             <File>
-              <FileName>startup_MK64F12.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/arm/startup_MK64F12.s</FilePath>
+              <FileName>board.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../board.h</FilePath>
+            </File>
+            <File>
+              <FileName>clock_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../clock_config.c</FilePath>
+            </File>
+            <File>
+              <FileName>clock_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../clock_config.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -629,9 +620,9 @@
           <GroupName>source</GroupName>
           <Files>
             <File>
-              <FileName>hello_world.c</FileName>
+              <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../hello_world.c</FilePath>
+              <FilePath>..\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1010,52 +1001,22 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>board</GroupName>
+          <GroupName>startup</GroupName>
           <Files>
             <File>
-              <FileName>pin_mux.c</FileName>
+              <FileName>system_MK64F12.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../pin_mux.c</FilePath>
+              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.c</FilePath>
             </File>
             <File>
-              <FileName>pin_mux.h</FileName>
+              <FileName>system_MK64F12.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../pin_mux.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>board-src</GroupName>
-          <Files>
-            <File>
-              <FileName>board.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../board.c</FilePath>
+              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.h</FilePath>
             </File>
             <File>
-              <FileName>board.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>../board.h</FilePath>
-            </File>
-            <File>
-              <FileName>clock_config.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../clock_config.c</FilePath>
-            </File>
-            <File>
-              <FileName>clock_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>../clock_config.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>doc</GroupName>
-          <Files>
-            <File>
-              <FileName>readme.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>../readme.txt</FilePath>
+              <FileName>startup_MK64F12.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/arm/startup_MK64F12.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -1235,22 +1196,42 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>startup</GroupName>
+          <GroupName>board</GroupName>
           <Files>
             <File>
-              <FileName>system_MK64F12.c</FileName>
+              <FileName>pin_mux.c</FileName>
               <FileType>1</FileType>
-              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.c</FilePath>
+              <FilePath>../pin_mux.c</FilePath>
             </File>
             <File>
-              <FileName>system_MK64F12.h</FileName>
+              <FileName>pin_mux.h</FileName>
               <FileType>5</FileType>
-              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/system_MK64F12.h</FilePath>
+              <FilePath>../pin_mux.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>board-src</GroupName>
+          <Files>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../board.c</FilePath>
             </File>
             <File>
-              <FileName>startup_MK64F12.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>D:/NXP_FRDM-K64F/devices/MK64F12/arm/startup_MK64F12.s</FilePath>
+              <FileName>board.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../board.h</FilePath>
+            </File>
+            <File>
+              <FileName>clock_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../clock_config.c</FilePath>
+            </File>
+            <File>
+              <FileName>clock_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../clock_config.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1258,9 +1239,9 @@
           <GroupName>source</GroupName>
           <Files>
             <File>
-              <FileName>hello_world.c</FileName>
+              <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../hello_world.c</FilePath>
+              <FilePath>..\main.c</FilePath>
             </File>
           </Files>
         </Group>
